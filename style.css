@@ -141,6 +141,7 @@ img[version="desktop"] {
 
 .stats p {
     color: var(--clr-neutral-paragraph);
+    font-family: var(--font-family-secondary);
     line-height: 1.5;
 }
 
@@ -152,12 +153,5 @@ img[version="desktop"] {
 .stats-desc {
     text-transform: uppercase;
     font-family: var(--font-family-secondary);
-    font-size: -fs;
-}
-
-@media (min-width: 700px) {
-    .stats-desc {
-        font-size: calc(var(--fs-100) * 0.75);
-    }
-
+    font-size: var(--fs-100);
 }
